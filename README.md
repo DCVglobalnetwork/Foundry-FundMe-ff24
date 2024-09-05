@@ -16,7 +16,7 @@ git clone https://github.com/DCVglobalnetwork/Foundry-FundMe-ff24.git
 cd Foundry-FundMe-ff24
 ```
 
-### Usage
+## Usage
 
 ### Deploy
 
@@ -92,34 +92,12 @@ Using cast deployed locally example:
 $ forge fmt
 ```
 
-### Gas Snapshots
+### Additional Info:
 
-```shell
-$ forge snapshot
-```
+Some users were having a confusion that whether Chainlink-brownie-contracts is an official Chainlink repository or not. Here is the info. 
+Chainlink-brownie-contracts is an official repo. The repository is owned and maintained by the chainlink team for this very purpose, and gets releases from the proper chainlink release process. 
+You can see it's still the smartcontractkit org as well.
 
-### Anvil
+[Chainlink Brownie Contracts](https://github.com/smartcontractkit/chainlink-brownie-contracts)
 
-```shell
-$ anvil
-```
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
